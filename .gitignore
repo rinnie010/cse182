@@ -1,0 +1,16 @@
+# Ignore the large database data folder
+postgres_data/
+
+# Ignore OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Ignore any local environment files
+.env
+
+# Ignore Mac system files
+.DS_Store
+__MACOSX/
+
+# Ignore the zip files themselves
+*.zip
