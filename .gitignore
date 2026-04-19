@@ -14,3 +14,6 @@ __MACOSX/
 
 # Ignore the zip files themselves
 *.zip
+
+cse182-compose.yml
+*:Zone.Identifier
