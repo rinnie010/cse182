@@ -72,7 +72,7 @@ CREATE TABLE PackageDropOff (
     FOREIGN KEY(orderID) REFERENCES ShippingOrder(orderID)
 );
 
-CREATE TABLE RouteStaffAssignment (
+CREATE TABLE RouteStaffAssignment ( 
     routeID     INT, 
     staffID     INT, 
     compensation NUMERIC(9,2),
